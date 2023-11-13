@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.verifyStrLen=exports.verifyPositiveInt=void 0;exports.verifyPositiveInt=function(e){return"number"==typeof e&&/^[1-9]\d*$/.test(String(e))};exports.verifyStrLen=function(e,t,r){return void 0===r&&(r=1),"string"==typeof e&&e.length>=r&&e.length<=t};
